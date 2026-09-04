@@ -1,30 +1,29 @@
-# 🪶 Lord Krishna Colored ASCII Art Generator
+# 🪈 Krishna Particle-Reveal Animation (Python + OpenCV)
 
-A Python-based image processing tool that converts high-contrast images into detailed, high-resolution, and color-mapped ASCII art rendered as custom HTML output.
-
-🌐 **Live Demo Output:** [View Krishna Colored ASCII Art](https://anshii702.github.io/Krishna-ASCII-Art-Generator/krishna_colored_art.html)
+An interactive Computer Vision application built in Python that dynamically renders a particle-based reveal animation of Lord Krishna. Designed specifically with responsive aspect-ratio handling to output full-screen video content for Instagram Reels and visual showcases.
 
 ---
 
-## 🎨 Overview
+## 🎨 Visual Preview & Features
 
-This project takes an input image (such as the divine silhouette of Lord Krishna) and processes pixel brightness and RGB color values using Python's `Pillow` library. Instead of rendering standard monochrome terminal output, it generates a styled HTML file preserving exact source colors, contrast, and sharp detail.
-
----
-
-## ✨ Features
-
-* **Image Preprocessing:** Uses `Pillow` (PIL) to enhance image contrast and sharpness for crisp detail.
-* **RGB Color Mapping:** Maps pixel RGB values directly to dynamic HTML `<span>` tags.
-* **Custom Character Density:** Maps grayscale brightness levels to a granular 70-character ASCII density scale.
-* **Browser-Ready Output:** Generates `krishna_colored_art.html` for clean, responsive viewing across devices.
+* **Particle Reconstruction Stream:** Randomly batches pixel coordinate matrices to animate a seamless stream-of-light reveal effect.
+* **Glowing Aura Overlay:** Blends Gaussian blur matrices dynamically over the canvas for a vibrant neon glow (`cv2.addWeighted`).
+* **Aspect Ratio Padding:** Automatically calculates canvas offsets to fit standard 16:9 displays without stretching or distortion.
+* **Interactive Control:** Real-time visual rendering window with keyboard interrupt handlers (`ESC` / `q`).
 
 ---
 
-## 📁 Repository Structure
+## 🛠️ Tech Stack & Dependencies
 
-```text
-Krishna-ASCII-Art-Generator/
-├── app.py                      # Main Python script for ASCII conversion
-├── krishna.jpg                 # Input image
-└── krishna_colored_art.html    # Generated colored ASCII art output
+* **Language:** Python 3.x
+* **Computer Vision:** OpenCV (`opencv-python`)
+* **Scientific Computing:** NumPy
+
+---
+
+## 🚀 Local Installation & Usage Guide
+
+1. **Clone the Repository**
+   ```bash
+   git clone [https://github.com/Anshii702/krishna-particle-animation.git](https://github.com/Anshii702/krishna-particle-animation.git)
+   cd krishna-particle-animation
