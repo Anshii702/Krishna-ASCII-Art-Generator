@@ -25,5 +25,5 @@ An interactive Computer Vision application built in Python that dynamically rend
 
 1. **Clone the Repository**
    ```bash
-   git clone [https://github.com/Anshii702/krishna-particle-animation.git](https://github.com/Anshii702/krishna-particle-animation.git)
+   git clone- https://github.com/Anshii702/krishna-particle-animation.git
    cd krishna-particle-animation
