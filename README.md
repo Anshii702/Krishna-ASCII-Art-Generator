@@ -2,6 +2,8 @@
 
 A Python-based image processing tool that converts high-contrast images into detailed, high-resolution, and color-mapped ASCII art rendered as custom HTML output.
 
+🌐 **Live Demo Output:** [View Krishna Colored ASCII Art](https://anshii702.github.io/Krishna-ASCII-Art-Generator/krishna_colored_art.html)
+
 ---
 
 ## 🎨 Overview
@@ -23,7 +25,6 @@ This project takes an input image (such as the divine silhouette of Lord Krishna
 
 ```text
 Krishna-ASCII-Art-Generator/
-│
 ├── app.py                      # Main Python script for ASCII conversion
 ├── krishna.jpg                 # Input image
 └── krishna_colored_art.html    # Generated colored ASCII art output
